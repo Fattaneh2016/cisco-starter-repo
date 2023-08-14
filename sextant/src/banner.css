@@ -1,0 +1,15 @@
+/* src/Banner.css */
+.Banner {
+    background-color: #3b6064;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 100px;
+  }
+  
+  .banner h1 {
+    margin: 200;
+  }
+  
