@@ -1,18 +1,15 @@
-/* src/Exhibit.css */
+/* Style the Exhibit components */
 .Exhibit {
-    background-color: #87bba2;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-top: 100px;
-    
-  }
-  
-  .exhibit h2 {
-    margin: 0;
-    background-color: #382371;
-  }
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 15px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+}
 
-  
+.Exhibit:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
