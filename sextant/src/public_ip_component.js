@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './public_ip_component.css';
 
 class PublicIPComponent extends Component {
     constructor(props) {
@@ -17,7 +18,7 @@ class PublicIPComponent extends Component {
 
     render() {
         return (
-            <span className="AddressDisplay">
+            <span className="PublicIPComponent">
                 {this.state.ipAddress}
             </span>
         );

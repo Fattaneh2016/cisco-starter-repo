@@ -10,6 +10,7 @@ function App() {
         { name: 'Public IPv4 Address', url: 'https://api.ipify.org?format=json' },
         { name: 'Public IPv6 Address', url: 'https://api64.ipify.org?format=json' },
         { name: 'Packet Latency', component: <PacketLatencyComponent /> }
+     
     ];
 
     return (
@@ -25,6 +26,7 @@ function App() {
                                 {exhibit.component || <PublicIPComponent url={exhibit.url} />}
                             </Exhibit>
                         </div>
+                        
                     ))}
                 </div>
             </div>

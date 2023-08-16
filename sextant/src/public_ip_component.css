@@ -1,10 +1,11 @@
 
 /* Style the PacketLatencyComponent */
-.PacketLatencyComponent {
+
+.publicIpComponent {
     display: inline-block;
     padding: 10px;
-    font-size: 2rem;
-    background-color: #87bba2;
+    font-size: 3rem;
+    background-color: #bb8799;
     border-radius: 10px;
     color: #fff;
   }
